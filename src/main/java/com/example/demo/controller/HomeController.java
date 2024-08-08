@@ -14,7 +14,7 @@ public class HomeController {
 
 	@GetMapping("/get")
 	public String get() {
-		
+		string str="1234";
 		return "this is my method get";
 
 	}
