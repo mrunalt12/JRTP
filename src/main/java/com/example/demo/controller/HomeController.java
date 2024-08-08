@@ -9,7 +9,13 @@ public class HomeController {
 	@GetMapping("/show")
 	public String show() {
 		
-		return "this is my class";
+		return "this is my method show";
+	}
+
+	@GetMapping("/get")
+	public String get() {
+		
+		return "this is my method get";
 	}
 
 }
