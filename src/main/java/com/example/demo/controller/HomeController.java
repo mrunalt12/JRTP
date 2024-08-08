@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/show")
 	public String show() {
-		
+		String abs="pre approved command";
 		return "this is my method show";
 	}
 
