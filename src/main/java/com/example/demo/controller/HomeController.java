@@ -20,8 +20,9 @@ public class HomeController {
 	}
 	@GetMapping("/find")
 	public String find() {
+		String str="this is my method find";
 		
-		return "this is my method find";
+		return str;
 
 	}
 
