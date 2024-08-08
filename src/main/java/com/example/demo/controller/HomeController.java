@@ -25,5 +25,12 @@ public class HomeController {
 		return str;
 
 	}
+	@GetMapping("/display")
+	public String display() {
+		String str="this is my method display";
+		
+		return str;
+
+	}
 
 }
