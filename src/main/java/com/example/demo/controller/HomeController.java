@@ -16,6 +16,14 @@ public class HomeController {
 	public String get() {
 		
 		return "this is my method get";
+
+		return "this is my method find";
+	}
+	@GetMapping("/find")
+	public String find() {
+		
+		return "this is my method find";
+
 	}
 
 }
